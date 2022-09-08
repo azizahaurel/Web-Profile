@@ -1,0 +1,239 @@
+*{
+    margin: 0 auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins' ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.col-2 p{
+    font-size: 2
+    0px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-height: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin: 20px 0px;
+}
+.btn{
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 8px 30px;
+    margin:30px 0;
+    border-radius: 30px;
+    transition: backgorund 0.5s;
+}
+.btn:hover{
+    background: rgb(82, 82, 82);
+}
+.header{
+    background: radial-gradient(rgb(255, 255, 255),#828282);
+    height: 100vh;
+}
+.header .row{
+    margin-top: 70px ;
+}
+.col-2 .btn{
+    margin-top: 10vh;
+    width: 40%;
+    text-align: center;
+}
+.col-3{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.title{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.categories{
+    height: 100vh;
+    margin-top: 10px;
+    background-image: linear-gradient(rgb(150, 150, 150),#ffffff)
+}
+.col-3 img{
+    width: 200px;
+    align-items: center;
+    margin-left: 45px;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+.col-3 p{
+    flex-basis: 25%;
+    padding: 5px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+.col-3 h2 {
+    text-align: center;
+}
+.col-3 p{
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px;
+    position: inherit;
+}
+.Pendidikan{
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(rgb(255, 255, 255),#bebebe)
+    margin-top
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #d4d4d4;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #151515;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.social{
+    display: flex;  
+}
+.social a{
+   width: 45px; 
+   height: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #c6c6c6;
+   border-radius: 50%;
+   margin: 22px 10px;
+   color: #FFFFFF;
+   text-decoration: none;
+   font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.end{
+    color: #FFFFFF;
+    bottom: 35px;
+    font-size: 14px;
+}
+.skills{
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+#skills .bar{
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0 20px 0;
+    text-align: left;
+}
+.bar .nilai{
+    height: 30px;
+    background-color: #818181;
+    display: inline-block;
+    color: #fff;
+    text-align: right;
+}
+.html{
+    width: 70%;
+}
+.css{
+    width: 60%;
+}
+.php{
+    width: 30%;
+}
+.js{
+    width: 10%;
+}
+.kontak h2{
+    text-align: center;
+}
